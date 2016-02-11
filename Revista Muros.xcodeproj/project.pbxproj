@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4607C851C6D513300F9CE27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4607C841C6D513300F9CE27 /* AppDelegate.swift */; };
+		B4607C871C6D513300F9CE27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4607C861C6D513300F9CE27 /* ViewController.swift */; };
+		B4607C8A1C6D513300F9CE27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4607C881C6D513300F9CE27 /* Main.storyboard */; };
+		B4607C8C1C6D513300F9CE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4607C8B1C6D513300F9CE27 /* Assets.xcassets */; };
+		B4607C8F1C6D513300F9CE27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4607C8D1C6D513300F9CE27 /* LaunchScreen.storyboard */; };
+		B4607C9A1C6D513300F9CE27 /* Revista_MurosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4607C991C6D513300F9CE27 /* Revista_MurosTests.swift */; };
+		B4607CA51C6D513300F9CE27 /* Revista_MurosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4607CA41C6D513300F9CE27 /* Revista_MurosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4607C961C6D513300F9CE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4607C791C6D513300F9CE27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4607C801C6D513300F9CE27;
+			remoteInfo = "Revista Muros";
+		};
+		B4607CA11C6D513300F9CE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4607C791C6D513300F9CE27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4607C801C6D513300F9CE27;
+			remoteInfo = "Revista Muros";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4607C811C6D513300F9CE27 /* Revista Muros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Revista Muros.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4607C841C6D513300F9CE27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4607C861C6D513300F9CE27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4607C891C6D513300F9CE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4607C8B1C6D513300F9CE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4607C8E1C6D513300F9CE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4607C901C6D513300F9CE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4607C951C6D513300F9CE27 /* Revista MurosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Revista MurosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4607C991C6D513300F9CE27 /* Revista_MurosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Revista_MurosTests.swift; sourceTree = "<group>"; };
+		B4607C9B1C6D513300F9CE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4607CA01C6D513300F9CE27 /* Revista MurosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Revista MurosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4607CA41C6D513300F9CE27 /* Revista_MurosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Revista_MurosUITests.swift; sourceTree = "<group>"; };
+		B4607CA61C6D513300F9CE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4607C7E1C6D513300F9CE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4607C921C6D513300F9CE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4607C9D1C6D513300F9CE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4607C781C6D513300F9CE27 = {
+			isa = PBXGroup;
+			children = (
+				B4607C831C6D513300F9CE27 /* Revista Muros */,
+				B4607C981C6D513300F9CE27 /* Revista MurosTests */,
+				B4607CA31C6D513300F9CE27 /* Revista MurosUITests */,
+				B4607C821C6D513300F9CE27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4607C821C6D513300F9CE27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4607C811C6D513300F9CE27 /* Revista Muros.app */,
+				B4607C951C6D513300F9CE27 /* Revista MurosTests.xctest */,
+				B4607CA01C6D513300F9CE27 /* Revista MurosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4607C831C6D513300F9CE27 /* Revista Muros */ = {
+			isa = PBXGroup;
+			children = (
+				B4607C841C6D513300F9CE27 /* AppDelegate.swift */,
+				B4607C861C6D513300F9CE27 /* ViewController.swift */,
+				B4607C881C6D513300F9CE27 /* Main.storyboard */,
+				B4607C8B1C6D513300F9CE27 /* Assets.xcassets */,
+				B4607C8D1C6D513300F9CE27 /* LaunchScreen.storyboard */,
+				B4607C901C6D513300F9CE27 /* Info.plist */,
+			);
+			path = "Revista Muros";
+			sourceTree = "<group>";
+		};
+		B4607C981C6D513300F9CE27 /* Revista MurosTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4607C991C6D513300F9CE27 /* Revista_MurosTests.swift */,
+				B4607C9B1C6D513300F9CE27 /* Info.plist */,
+			);
+			path = "Revista MurosTests";
+			sourceTree = "<group>";
+		};
+		B4607CA31C6D513300F9CE27 /* Revista MurosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4607CA41C6D513300F9CE27 /* Revista_MurosUITests.swift */,
+				B4607CA61C6D513300F9CE27 /* Info.plist */,
+			);
+			path = "Revista MurosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4607C801C6D513300F9CE27 /* Revista Muros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4607CA91C6D513300F9CE27 /* Build configuration list for PBXNativeTarget "Revista Muros" */;
+			buildPhases = (
+				B4607C7D1C6D513300F9CE27 /* Sources */,
+				B4607C7E1C6D513300F9CE27 /* Frameworks */,
+				B4607C7F1C6D513300F9CE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Revista Muros";
+			productName = "Revista Muros";
+			productReference = B4607C811C6D513300F9CE27 /* Revista Muros.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4607C941C6D513300F9CE27 /* Revista MurosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4607CAC1C6D513300F9CE27 /* Build configuration list for PBXNativeTarget "Revista MurosTests" */;
+			buildPhases = (
+				B4607C911C6D513300F9CE27 /* Sources */,
+				B4607C921C6D513300F9CE27 /* Frameworks */,
+				B4607C931C6D513300F9CE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4607C971C6D513300F9CE27 /* PBXTargetDependency */,
+			);
+			name = "Revista MurosTests";
+			productName = "Revista MurosTests";
+			productReference = B4607C951C6D513300F9CE27 /* Revista MurosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4607C9F1C6D513300F9CE27 /* Revista MurosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4607CAF1C6D513300F9CE27 /* Build configuration list for PBXNativeTarget "Revista MurosUITests" */;
+			buildPhases = (
+				B4607C9C1C6D513300F9CE27 /* Sources */,
+				B4607C9D1C6D513300F9CE27 /* Frameworks */,
+				B4607C9E1C6D513300F9CE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4607CA21C6D513300F9CE27 /* PBXTargetDependency */,
+			);
+			name = "Revista MurosUITests";
+			productName = "Revista MurosUITests";
+			productReference = B4607CA01C6D513300F9CE27 /* Revista MurosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4607C791C6D513300F9CE27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gerardo Israel Monteverde";
+				TargetAttributes = {
+					B4607C801C6D513300F9CE27 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B4607C941C6D513300F9CE27 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B4607C801C6D513300F9CE27;
+					};
+					B4607C9F1C6D513300F9CE27 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B4607C801C6D513300F9CE27;
+					};
+				};
+			};
+			buildConfigurationList = B4607C7C1C6D513300F9CE27 /* Build configuration list for PBXProject "Revista Muros" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4607C781C6D513300F9CE27;
+			productRefGroup = B4607C821C6D513300F9CE27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4607C801C6D513300F9CE27 /* Revista Muros */,
+				B4607C941C6D513300F9CE27 /* Revista MurosTests */,
+				B4607C9F1C6D513300F9CE27 /* Revista MurosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4607C7F1C6D513300F9CE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4607C8F1C6D513300F9CE27 /* LaunchScreen.storyboard in Resources */,
+				B4607C8C1C6D513300F9CE27 /* Assets.xcassets in Resources */,
+				B4607C8A1C6D513300F9CE27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4607C931C6D513300F9CE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4607C9E1C6D513300F9CE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4607C7D1C6D513300F9CE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4607C871C6D513300F9CE27 /* ViewController.swift in Sources */,
+				B4607C851C6D513300F9CE27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4607C911C6D513300F9CE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4607C9A1C6D513300F9CE27 /* Revista_MurosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4607C9C1C6D513300F9CE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4607CA51C6D513300F9CE27 /* Revista_MurosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4607C971C6D513300F9CE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4607C801C6D513300F9CE27 /* Revista Muros */;
+			targetProxy = B4607C961C6D513300F9CE27 /* PBXContainerItemProxy */;
+		};
+		B4607CA21C6D513300F9CE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4607C801C6D513300F9CE27 /* Revista Muros */;
+			targetProxy = B4607CA11C6D513300F9CE27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4607C881C6D513300F9CE27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4607C891C6D513300F9CE27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4607C8D1C6D513300F9CE27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4607C8E1C6D513300F9CE27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4607CA71C6D513300F9CE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4607CA81C6D513300F9CE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4607CAA1C6D513300F9CE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Revista Muros/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GerardoMonteverde.Revista-Muros";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4607CAB1C6D513300F9CE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Revista Muros/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GerardoMonteverde.Revista-Muros";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B4607CAD1C6D513300F9CE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Revista MurosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GerardoMonteverde.Revista-MurosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Revista Muros.app/Revista Muros";
+			};
+			name = Debug;
+		};
+		B4607CAE1C6D513300F9CE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Revista MurosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GerardoMonteverde.Revista-MurosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Revista Muros.app/Revista Muros";
+			};
+			name = Release;
+		};
+		B4607CB01C6D513300F9CE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Revista MurosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GerardoMonteverde.Revista-MurosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Revista Muros";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B4607CB11C6D513300F9CE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Revista MurosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GerardoMonteverde.Revista-MurosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Revista Muros";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4607C7C1C6D513300F9CE27 /* Build configuration list for PBXProject "Revista Muros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4607CA71C6D513300F9CE27 /* Debug */,
+				B4607CA81C6D513300F9CE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4607CA91C6D513300F9CE27 /* Build configuration list for PBXNativeTarget "Revista Muros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4607CAA1C6D513300F9CE27 /* Debug */,
+				B4607CAB1C6D513300F9CE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B4607CAC1C6D513300F9CE27 /* Build configuration list for PBXNativeTarget "Revista MurosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4607CAD1C6D513300F9CE27 /* Debug */,
+				B4607CAE1C6D513300F9CE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B4607CAF1C6D513300F9CE27 /* Build configuration list for PBXNativeTarget "Revista MurosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4607CB01C6D513300F9CE27 /* Debug */,
+				B4607CB11C6D513300F9CE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4607C791C6D513300F9CE27 /* Project object */;
+}
