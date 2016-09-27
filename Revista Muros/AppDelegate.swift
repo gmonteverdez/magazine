@@ -16,6 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //308b4697-e678-42ad-9971-0f9a7cec92ad
+        
+        _ = OneSignal(launchOptions: launchOptions, appId: "308b4697-e678-42ad-9971-0f9a7cec92ad", handleNotification: nil)
+        
+        OneSignal.defaultClient().enableInAppAlertNotification(true)
+        
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.blackColor()]
+        UINavigationBar.appearance().tintColor = UIColor.blackColor()
+        
+        UITabBar.appearance().barTintColor = UIColor.blackColor()
+        UITabBar.appearance().tintColor = UIColor.whiteColor()
+
+        
         return true
     }
 

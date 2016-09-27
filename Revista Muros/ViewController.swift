@@ -7,11 +7,22 @@
 //
 
 import UIKit
+import CloudKit
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let newEdicion = CKRecord(recordType: "Ediciones")
+        newEdicion["edicion"] = "Diciembre 2015 - Enero 2016"
+        
+        let publicData = CKContainer.defaultContainer().publicCloudDatabase
+        publicData.saveRecord(newEdicion) { (record: CKRecord?, error:NSError?) -> Void in
+            print("Saved!")
+        }
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
